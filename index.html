@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Cosmic Crystal Collector</title>
+
+	<!-- jQuery link -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	
+<!-- 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+	
+	<!-- Google Fonts -->	
+	<link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:900" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!-- <script src="assets/javascript/game.js"></script> -->
+
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<div id="logo" class="img-responsive">
+<!-- 	  				<img src="../assets/images/logo.png" alt="logo" class="img-rounded"> -->
+				</div>
+			</div>
+		</div>	
+	</div>
+
+	<div class="container">
+		<div class="wrapper">
+			<div class="panel">
+				<p>PICK YOUR <span style="color: #f75b20"> Z </span> FIGHTER</p>
+					<div class="panel-body">
+				  <!-- <p>You will be given a random number at the start of the game. There are four crystals on the game board. Each crystal has a designated value. By clicking on a crystal, you will add that value to your total score.</p>
+				  <p>Your goal is to match your score to the computer's score without going over. The value of each crystal is hidden from you until you click on it. Each time the game starts, the crystal values will be shuffled. Good Luck! -->
+			
+					<div class="row">
+			 			<!-- <div class="col-xs-6 col-md-2"></div> -->
+				 			<div class="col-xs-6 col-md-3">
+				   				<div id="z-1" class="thumbnail">
+				      			<img src="assets/images/goku.png" alt="z-1">
+				    			</div>
+				  			</div>
+				   			<div class="col-xs-6 col-md-3">
+				   				<div id="z-2" class="thumbnail">
+				      			<img src="assets/images/vegeta.png" alt="z-2">
+				    			</div>
+				  			</div>
+				   			<div class="col-xs-6 col-md-3">
+				   				<div id="z-3" class="thumbnail">
+				      			<img src="assets/images/frieza2.png" alt="z-3">
+				    			</div>
+				  			</div>
+							<div class="col-xs-6 col-md-3">
+				   				<div id="z-4" class="thumbnail">
+				      			<img src="assets/images/cell2.png" alt="z-4">
+				    			</div>
+				  			</div>
+				  			<!-- <div class="col-xs-6 col-md-2"></div> -->
+					</div>
+
+
+				</div>
+			</div>
+			
+			<div id="spacer"></div>
+			
+			<div id="battlefield" class="panel">
+				<p>WHO IS THE ULTIMATE CHAMPION?</p>
+					<div class="panel-body">
+				  <!-- <p>You will be given a random number at the start of the game. There are four crystals on the game board. Each crystal has a designated value. By clicking on a crystal, you will add that value to your total score.</p>
+				  <p>Your goal is to match your score to the computer's score without going over. The value of each crystal is hidden from you until you click on it. Each time the game starts, the crystal values will be shuffled. Good Luck! -->
+				
+					<div class="row">
+			 			<div class="col-xs-6 col-md-1"></div>
+				 			<div class="col-xs-6 col-md-4">
+				   				<div id="fighter1" class="thumbnail">
+					      			<img src="assets/images/goku-fighter.png" alt="z-1">
+
+					      			<div class="progress">
+									  <div class="progress-bar progress-bar-danger progress-bar-striped" style="width: 15%">
+									    <span class="sr-only">35% Complete (success)</span>
+									  </div>
+									  <div class="progress-bar progress-bar-warning progress-bar-striped" style="width: 35%">
+									    <span class="sr-only">20% Complete (warning)</span>
+									  </div>
+									  <div class="progress-bar progress-bar-success progress-bar-striped" style="width: 50%">
+									    <span class="sr-only">10% Complete (danger)</span>
+									  </div>
+									</div>
+
+									<button id="attack" type="button" class="btn btn-default center-block">ATTACK</button>
+
+				    			</div>
+				  			</div>
+
+				   			<div class="col-xs-6 col-md-2">
+				   				<div id="vs" class="thumbnail">
+				      			<img src="assets/images/VS.png" alt="z-2">
+				    			</div>
+				  			</div>
+				   			<div class="col-xs-6 col-md-4">
+				   				<div id="fighter2" class="thumbnail">
+				      				<img src="assets/images/frieza-fighter.png" alt="z-3">
+
+				      				<div class="progress">
+									  <div class="progress-bar progress-bar-danger progress-bar-striped" style="width: 15%">
+									    <span class="sr-only">35% Complete (success)</span>
+									  </div>
+									  <div class="progress-bar progress-bar-warning progress-bar-striped" style="width: 35%">
+									    <span class="sr-only">20% Complete (warning)</span>
+									  </div>
+									  <div class="progress-bar progress-bar-success progress-bar-striped" style="width: 50%">
+									    <span class="sr-only">10% Complete (danger)</span>
+									  </div>
+									</div>
+
+				    			</div>
+				  			</div>
+				  			<div class="col-xs-6 col-md-1"></div>
+					</div>
+
+				</div>
+			</div>
+		</div>  <!-- CLOSES WRAPPER -->
+
+		<!-- Footer -->
+		<nav class="navbar navbar-default navbar-static-bottom">
+	  		<div>
+	    		&#169; Copyright 2017 Ryan Stangle &nbsp;&nbsp; | &nbsp;&nbsp; Hope you enjoyed the game
+	 		</div>
+		</nav>
+
+	</div>  <!-- CLOSES CONTAINER -->
+		
+
+
+
+
+	<!-- Music -->
+<!-- 		<audio autoplay loop>
+	  		<source src="assets/spacemusic.m4a"" type="audio/mpeg">
+	 	</audio> -->
+	
+	<script src="assets/javascript/game.js"></script>
+</body>
+</html>

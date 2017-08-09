@@ -1,0 +1,135 @@
+
+
+
+
+body {
+	background-image: url("../images/dbz-background.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#logo {
+	background-image: url("../images/logo.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 100%;
+	width: 100%;
+	height: 140px;
+/*	padding:20%*/
+}
+
+.wrapper {
+	margin: 25px auto 200px auto;
+	width: 100%;
+	/*padding: 3% 3%;*/
+	background-color: rgba(24, 27, 36, 0.7);
+/*	border-radius: 50px;*/
+	border: solid 10px black;
+	box-shadow: 3px 3px 7px #181b24 inset;
+/*	box-shadow: 2px 2px 5px #181b24 inset;*/
+}
+
+.panel{
+/*	font-family: 'Saira Extra Condensed', sans-serif;
+	font-size: 64px;*/
+	background: none;
+	border: none;
+	padding: 1%;
+}
+
+.panel > p {
+	font-family: 'Saira Extra Condensed', sans-serif;
+	font-size: 64px;
+	color: white;
+	text-align: center;
+/*	padding-top: 1%;*/
+}
+
+.panel-heading {
+	font-family: 'Saira Extra Condensed', sans-serif;
+	font-size: 30px;
+	text-align: center;
+	background: none;
+	color: white;
+	padding-top: 2%;
+}
+
+.panel-body{
+/*	background-color: rgba(24, 27, 36, 0.7);*/
+	text-align: left;
+	padding: 0% 2%;
+	margin-bottom: 0px;
+	border: none;
+}
+
+/*hr {
+	margin: 5px auto;
+	border-color: black;
+	height: 3px;
+
+}*/
+
+#spacer {
+	padding: 25px 0px;
+	background: black;
+}
+
+#vs {
+	position: absolute;
+	top: 150px;
+}
+
+/*.jumbotron {
+	background: none;
+	text-align: left;
+	padding: 5px 0px;
+	margin-bottom: 0px;
+}
+
+.jumbotron h3 {
+	color: white;
+	text-align: center;
+	margin-top: 0px;
+}*/
+
+.thumbnail {
+/*	background-color: #221b26;*/
+	margin: 8% 0%;
+	border: 0px;
+	box-shadow: none;
+	background: none;
+}
+
+.progress {
+	margin: 10px 35px 10px 15px;
+}
+
+.btn-default {
+	background: none;
+	color: white;
+}
+
+.navbar-static-bottom {
+	padding: 20px 20px 40px 20px;
+	background: none;
+	color: #f75b20;
+	font-size: 10pt;
+	text-align: center;
+	border: 0px;
+	border-color: none;
+	margin: 15px auto 0px auto;
+	box-shadow: none;
+	font-family: 'Saira Condensed', sans-serif;
+}
+
+
+/**********************************************************************************************************
+**********************************************************************************************************/
+
+@media screen and (min-width: 768px) {
+	.container .jumbotron {
+		padding: 25px 0px 30px 0px;
+	} 
+}
