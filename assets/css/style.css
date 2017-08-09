@@ -17,7 +17,19 @@ body {
 	background-size: 100%;
 	width: 100%;
 	height: 140px;
+	float: left;
+
 /*	padding:20%*/
+}
+
+h1 {
+	font-family: 'Saira Extra Condensed', sans-serif;
+	color: white;
+	font-size: 96px;
+	float: left;
+	letter-spacing: 1px;
+	padding-left: 3%;
+
 }
 
 .wrapper {
@@ -111,6 +123,9 @@ body {
 	color: white;
 }
 
+.btn {
+	font-family: 'Saira Condensed', sans-serif;
+}
 .navbar-static-bottom {
 	padding: 20px 20px 40px 20px;
 	background: none;
