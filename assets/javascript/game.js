@@ -27,32 +27,40 @@
 
 	// Create the fighters and their attributes as objects
 	var goku = {
-		hp = 105; // Health Points
-		cp = 12; // Combat Power (Attack Power)
-		counterHp = 10; // Counter Attack Power
-		fightImage = function imageSwap() {
-			var x = $
-		}
-	}
+		hp: 105, // Health Points
+		cp: 12, // Combat Power (Attack Power)
+		counterHp: 10, // Counter Attack Power
+		// I want to change the picture of the characters from the selection to the fight.
+		// Found the below online but not really sure it will work or how it works. 
+			// fightImage: function imageSwap() {
+			// 	$("img").click(function(e) {
+			// 		var newclass = $(this).attr("id");
+			// 		var oldclass = $("#fighter1").attr("class");
+			// 		$("#fighter1").fadeOut(function() {
+			// 			$("#fighter1").removeClass(oldclass).addClass(newclass).fadeIn("slow");
+			// 		})
+			// 	})
+			// }
+	};
 
 	var vegeta = {
-		hp = 115; // Health Points
-		cp = 10; // Combat Power (Attack Power)
-		counterHp = 8; // Counter Attack Power
-	}
+		hp: 115, // Health Points
+		cp: 10, // Combat Power (Attack Power)
+		counterHp: 8, // Counter Attack Power
+	};
 
 		var frieza = {
-		hp = 125; // Health Points
-		cp = 15; // Combat Power (Attack Power)
-		counterHp = 14; // Counter Attack Power
-	}
+		hp: 125, // Health Points
+		cp: 15, // Combat Power (Attack Power)
+		counterHp: 14, // Counter Attack Power
+	};
 
 		var perfectCell = {
-		hp = 135; // Health Points
-		cp = 18; // Combat Power (Attack Power)
-		counterHp = 12; // Counter Attack Power
+		hp: 135, // Health Points
+		cp: 18, // Combat Power (Attack Power)
+		counterHp: 12, // Counter Attack Power
 
-	}
+	};
 
 	// Probably need more variable, just can't think of them right now... Come back to this later
 
@@ -61,16 +69,17 @@
 
 // FUNCTIONS
 
-	// Need an .on("click") function to select player 1 and player 2. Use to select 
+	// Need an .on("click") function to select player 1 and player 2. 
 		// Pick Player 1, push the character to the battlefield with attributes.  Use character object?
 		// Pick Player 2, push the character to the battlefield with attributes.  Use character object?
 		// How in the world to do this...
 
 	// Select a player 1
-	$("#locker-room").on("click", function()) {
+		// No idea where to start
+			// $("#locker-room").on("click", function()) {
 
 
-	}
+			// }
 
 //**************************************************************************************************************
 //**************************************************************************************************************

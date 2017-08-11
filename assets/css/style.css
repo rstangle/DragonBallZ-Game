@@ -36,7 +36,7 @@ h1 {
 	margin: 25px auto 200px auto;
 	width: 100%;
 	/*padding: 3% 3%;*/
-	background-color: rgba(24, 27, 36, 0.7);
+	background-color: rgba(18, 34, 33, 0.7);
 /*	border-radius: 50px;*/
 	border: solid 10px black;
 	box-shadow: 3px 3px 7px #181b24 inset;
@@ -139,6 +139,9 @@ h1 {
 	font-family: 'Saira Condensed', sans-serif;
 }
 
+div.goku-fighter {
+	background: url("../images/goku-fighter.png") no-repeat center;
+}
 
 /**********************************************************************************************************
 **********************************************************************************************************/
